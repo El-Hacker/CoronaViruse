@@ -59,7 +59,7 @@ try:
         con.commit()
         if erow[0] == "Total:":
             break
-        print(" data of %s is added successfully" % row[0].text_content())
+        print(" data of %s has been successfully added" % row[0].text_content())
     print("Process finished with success, congrats!")
 except:
     print("The data of this day %s is already saved in the database, Thanks" % toDay)
